@@ -22,7 +22,7 @@ projeto$ source .projeto/bin/activate
 (.projeto) projeto$ manage startapp core
 ```
 Dentro do **PyCharm** em **Preferences** marcar a pasta `.projeto` como excluded para na hora de fazer busca por arquivos não aparecer um monte de arquivos que não aparecer essas dependências.  
-![05|690x475](upload://yqnwo47raOd4xQGE9jWLlYZhGyI.png) 
+
 
 Editar na `urls.py`:
 
