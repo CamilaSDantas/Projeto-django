@@ -19,6 +19,7 @@ projeto$ source .projeto/bin/activate
 (.projeto) projeto$ pip install python-decouple
 (.projeto) projeto$ pip install dj-database-url
 (.projeto) projeto$ pip install dj-static
+(.projeto) projeto$ pip install django-test-without-migrations
 (.projeto) projeto$ manage startapp core
 ```
 Dentro do **PyCharm** em **Preferences** marcar a pasta `.projeto` como excluded para na hora de fazer busca por arquivos não aparecer um monte de arquivos que não aparecer essas dependências.  
@@ -77,6 +78,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
++   'test_without_migrations',
 +   'projeto.core', 
 ]
 
