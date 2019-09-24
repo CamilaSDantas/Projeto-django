@@ -149,6 +149,7 @@ Editar o `requirements.txt`
 dj-database-url==0.5.0
 dj-static==0.0.6
 Django==2.2.5
+django-test-without-migrations==0.6
 python-decouple==3.1
 pytz==2019.2
 sqlparse==0.3.0
