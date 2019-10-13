@@ -21,7 +21,7 @@ projeto$ source .projeto/bin/activate
 (.projeto) projeto$ pip install dj-static
 (.projeto) projeto$ pip install django-test-without-migrations
 (.projeto) projeto$ manage startapp core
-(.projeto) projeto$ mv core coolist 
+(.projeto) projeto$ mv core projeto 
 ```
 Dentro do **PyCharm** em **Preferences** marcar a pasta `.projeto` como excluded para na hora de fazer busca por arquivos não aparecer um monte de arquivos que não aparecer essas dependências.  
 
