@@ -128,7 +128,7 @@ No terminal:
 ## Configurar Git
 
 ```
-(.projeto) projeto$ git init
+(.projeto) projeto$ git init .
 
 ```
 Criar arquivo `.gitignore`, e **atenção** para colocar  o seu **.projeto**
