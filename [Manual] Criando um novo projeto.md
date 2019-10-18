@@ -23,7 +23,11 @@ projeto$ source .projeto/bin/activate
 (.projeto) projeto$ manage startapp core
 (.projeto) projeto$ mv core projeto 
 ```
+ 
 Dentro do **PyCharm** em **Preferences** marcar a pasta `.projeto` como excluded para na hora de fazer busca por arquivos não aparecer um monte de arquivos que não aparecer essas dependências.  
+![05|690x475](upload://yqnwo47raOd4xQGE9jWLlYZhGyI.png) 
+
+E para terminar é só adicionar no **git** fazer o **commit** e fazer o **push** pro **Heroku** e está no ar. :smiley:
 
 
 Editar na `urls.py`:
